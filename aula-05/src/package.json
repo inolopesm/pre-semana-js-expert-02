@@ -1,0 +1,14 @@
+{
+  "name": "aula-04",
+  "scripts": {
+    "test": "mocha --parallel test/",
+    "test:dev": "mocha -w --exit test/",
+    "test:cov": "nyc --check-coverage --instrument --reporter=html --reporter=text npm test",
+    "start": "node src/"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
