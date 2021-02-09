@@ -1,0 +1,16 @@
+{
+  "name": "aula-03",
+  "scripts": {
+    "test": "mocha --parallel --exit test/",
+    "test:dev": "mocha test/ -w",
+    "test:cov": "nyc --reporter=html npm test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "lokijs": "1.5",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
